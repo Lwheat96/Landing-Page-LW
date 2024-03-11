@@ -7,9 +7,27 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 5px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .container-body {
     display: flex;
+    flex-direction: row;
+}
+
+.info-body {
+    width: 50%;
+    display: flex;
+   
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.photo {
+    height: 200px;
+    justify-content: center;
+    align-items: center;
 }

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -9,6 +10,8 @@ html {
     scroll-behavior: smooth;
 }
 .header {
+    width: 100vw;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -21,9 +24,33 @@ html {
     overflow: hidden;
 }
 
+.container-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-wrap: wrap;
+    margin-top: 100px;
+    gap: 10px;
+
+}
+
+.content {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 10px;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255, .1) ;
+    border-radius: 5px;
+}
 ul {
     display: flex;
     gap: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
 }
 li {
     list-style: none;
@@ -32,7 +59,6 @@ li {
 p {
     color: rgb(231, 231, 231);
     padding: 1rem 0;
-
 }
 
 a {
@@ -40,25 +66,24 @@ a {
     color: black;
 }
 
-.container-body {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    max-width: fit-content;
-    text-wrap: wrap;
-    margin-top: 100px;
-}
-
-.info-body {
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
 .photo {
     height: 200px;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
+}
+
+.footer{
+    width: 100vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 0;
+    overflow: hidden;
 }

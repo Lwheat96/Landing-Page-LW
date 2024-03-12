@@ -8,6 +8,7 @@
 html {
     background-color: rgb(33, 73, 29);
     scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
 }
 .header {
     width: 100vw;

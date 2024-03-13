@@ -6,9 +6,9 @@
 }
 
 html {
-    background-color: rgb(33, 73, 29);
+    background: linear-gradient(0deg, rgb(129, 195, 141), rgb(33, 73, 29));
     scroll-behavior: smooth;
-    scroll-padding-top: 5rem;
+    scroll-padding-top: 9rem;
 }
 .header {
     width: 100vw;
@@ -19,7 +19,7 @@ html {
     flex-shrink: 0;
     align-items: center;
     gap: 5px;
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgb(143, 194, 153), rgb(33, 73, 29));
     position: fixed;
     top: 0;
     overflow: hidden;
